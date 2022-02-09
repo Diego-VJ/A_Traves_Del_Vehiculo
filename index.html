@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#00abfb">
+    <meta name="description" content="Bienvenidos A Través del Vehiculo, este es un blog en el cual hablaremos sobre las diferencias marcas de los vehiculos">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/jpg" href="build/img/logo.webp">
+    <link rel="apple-touch-icon" href="build/img/logo.webp">
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+
+    <title>A Través del Vehiculo</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>A Través del Vehiculo</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#bmw">BMW</a>
+                <a href="#mustang">Mustang</a>
+                <a href="#ferrari">Ferrari</a>
+                <a href="#galeria">Galeria</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>A Través del Vehiculo</h2>
+                <p>Enero 2022, San José, Costa Rica</p>
+            </div>
+        </div>
+
+        <video autoplay muted loop>
+            <source src="video/video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-vehiculo">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/cars.avif" type="imagen/avif">
+                <source srcset="build/img/cars.webp" type="imagen/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/cars.jpg" alt="imagen_carro"> 
+            </picture>
+        </div>
+        <div class="contenido-blog">
+            <h2>A Través del Vehiculo</h2>
+            <p class="fecha">Enero 2022, San José, Costa Rica</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed sed commodo ipsum, aliquet sollicitudin ante. Duis tempor 
+                magna sit amet dui dictum rhoncus at ac lorem. Integer non metus turpis. 
+                Nam luctus, orci eget tempus mollis, mauris libero egestas metus, 
+                quis accumsan dolor purus vitae massa. Donec sit amet orci congue, 
+                accumsan quam pretium, posuere magna. Nunc et varius augue. 
+                Mauris tempor lobortis risus, ac elementum orci semper ac. 
+            </p>
+        </div>
+    </section>
+    <section id="bmw" class="bmw">
+        <h2 class="marca-bmw">BMW</h2>
+        <section class="contenedor sobre-bmw">
+            <div class="contenido-bmw">
+                <p class="dia">Jueves 6 de Enero</p>
+                <p class="historia">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed sed commodo ipsum, aliquet sollicitudin ante. Duis tempor 
+                    magna sit amet dui dictum rhoncus at ac lorem. Integer non metus turpis. 
+                    Nam luctus, orci eget tempus mollis, mauris libero egestas metus, 
+                    quis accumsan dolor purus vitae massa. Donec sit amet orci congue, 
+                    accumsan quam pretium, posuere magna. Nunc et varius augue. 
+                    Mauris tempor lobortis risus, ac elementum orci semper ac. 
+                </p>
+            </div>
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/bmw.avif" type="imagen/aviif">
+                    <source srcset="build/img/bmw.webp" type="imagen/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/bmw.jpg" alt="">
+                </picture>
+            </div>
+         </section> <!--Cierre Sección sobre BMW-->
+    </section> <!--Cierre Sección Completa-->
+
+    <section id="mustang" class="mustang">
+        <h2 class="marca-mustang">Mustang</h2>
+        <section class="contenedor sobre-mustang">
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/mustang.avif" type="imagen/aviif">
+                    <source srcset="build/img/mustang.webp" type="imagen/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/mustang.jpg" alt="">
+                </picture>
+            </div>
+            <div class="contenido-mustang">
+                <p class="dia">Viernes 7 de Enero</p>
+                <p class="historia">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed sed commodo ipsum, aliquet sollicitudin ante. Duis tempor 
+                    magna sit amet dui dictum rhoncus at ac lorem. Integer non metus turpis. 
+                    Nam luctus, orci eget tempus mollis, mauris libero egestas metus, 
+                    quis accumsan dolor purus vitae massa. Donec sit amet orci congue, 
+                    accumsan quam pretium, posuere magna. Nunc et varius augue. 
+                    Mauris tempor lobortis risus, ac elementum orci semper ac. 
+                </p>
+            </div>
+        </section> <!--Cierre Sección sobre Mustang-->
+    </section> <!--Cierre Sección Completa-->
+
+    <section id="ferrari" class="ferrari">
+        <h2 class="marca-ferrari">Ferrari</h2>
+        <section class="contenedor sobre-ferrari">
+            <div class="contenido-ferrari">
+                <p class="dia">Sabado 8 de Enero</p>
+                <p class="historia">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed sed commodo ipsum, aliquet sollicitudin ante. Duis tempor 
+                    magna sit amet dui dictum rhoncus at ac lorem. Integer non metus turpis. 
+                    Nam luctus, orci eget tempus mollis, mauris libero egestas metus, 
+                    quis accumsan dolor purus vitae massa. Donec sit amet orci congue, 
+                    accumsan quam pretium, posuere magna. Nunc et varius augue. 
+                    Mauris tempor lobortis risus, ac elementum orci semper ac. 
+                </p>
+            </div>
+            <div class="imagen">
+                <picture>
+                    <source srcset="build/img/ferrari.avif" type="imagen/aviif">
+                    <source srcset="build/img/ferrari.webp" type="imagen/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/ferrari.jpg" alt="">
+                </picture>
+            </div>
+         </section> <!--Cierre Sección sobre Ferrari-->
+    </section> <!--Cierre Sección Completa-->
+
+    
+    <section id="galeria" class="carrusel-slider">
+        <h2>Galeria</h2>
+        <div class="contenedor-slider">
+           <div class="slider" id="slider">
+               <div class="slider__section">
+                   <img src="build/img/bmw_banner1.jpg" alt="" class="slider__img">
+               </div>
+               <div class="slider__section">
+                   <img src="build/img/mustang_banner1.jpg" alt="" class="slider__img">
+               </div>
+               <div class="slider__section">
+                   <img src="build/img/ferrari_banner1.jpg" alt="" class="slider__img">
+               </div>
+               <div class="slider__section">
+                   <img src="build/img/bmw_banner2.jpg" alt="" class="slider__img">
+               </div>
+               <div class="slider__section">
+                   <img src="build/img/mustang_banner2.jpg" alt="" class="slider__img">
+               </div>
+               <div class="slider__section">
+                   <img src="build/img/ferrari_banner3.jpg" alt="" class="slider__img">
+               </div>
+           </div> <!--Cierre slider-->
+           <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+           <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+        </div> <!--Cierre div contenedor-->
+    </section> <!--Cierre Carrusel-Slider-->  
+
+    <footer class="site-footer">
+        <p>A Través del Vehiculo. Todos los derechos reservados</p>
+    </footer>
+
+    <script src='build/js/app.js'></script>
+    <script src='build/js/slider.js'></script>
+    
+</body>
+</html>

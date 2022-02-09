@@ -1,0 +1,47 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.bmw {
+    background-color: v.$negro-claro;
+    padding: 30px 0;
+    margin: 0;
+
+    .marca-bmw {
+        color: v.$blanco;
+        text-align: center;
+    }
+}
+
+.sobre-bmw {
+    @include m.tablet {
+        @include m.grid(2, 5rem);
+    }
+    
+    .imagen {
+        padding: 2rem 0;
+    }
+}
+
+.contenido-bmw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 5rem;
+    @include m.tablet {
+        margin-top: 0rem;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .dia {
+        color: v.$rojo;
+        font-size: 700;
+    }
+    .historia {
+        color: v.$blanco;
+    }
+   
+}
+
+
